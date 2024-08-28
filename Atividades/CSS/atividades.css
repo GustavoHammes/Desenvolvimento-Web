@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /*background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;*/
+
+  /*background: color image repeat position/size*/
+  background: teal;
+}
+body * {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+
+#titulo {
+  text-align: center;
+  padding: 24px;
+}
+
+#titulo img {
+  /*Em img, não é possível ajustar a margem automaticamente pois a imagem está inline, para isso é necessário usar display:block; para que mude a imagem para block e assim vc consiga ajustar a margem*/
+  /*display: block;*/
+  width: 250px;
+  /*margin: auto;*/
+}
+
+#titulo h2 {
+  text-align: left;
+  padding: 24px;
+}
+
+#titulo h3 {
+  text-align: left;
+  padding: 24px;
+}
+
+#titulo h4 {
+  text-align: left;
+  padding: 24px;
+}
+
+#titulo p {
+  text-align: left;
+  padding: auto;
+}
+
+#titulo a {
+  text-align: center;
+  padding: 24px;
+}
