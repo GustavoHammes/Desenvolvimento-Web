@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercício 7</title>
+    <style>
+      *{
+        font-family: Calibri;
+      }
+      #idade, #nome, #button{
+        border-radius: 5px;
+        border-width: 1px;
+        border-color: #888;
+        background-color: #444;
+        color: #fff;
+        padding: 4px;
+      }
+
+      .linha{
+        margin-bottom: 8px ;
+        margin-top: 8px;
+        font-weight: bold;
+      }
+
+      #nome{
+        width: 200px;
+      }
+
+      #idade{
+        width: 50px;
+        text-align: right;
+      }
+
+      #button{
+        padding: 4px 15px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="linha">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" value="Maria" />
+      </div>
+      <div class="linha">
+        <label for="idade">Idade:</label>
+        <input type="number" value="18" name="idade" id="idade" />
+      </div>
+      <button id="button">Enviar</button>
+    </form>
+  </body>
+</html>
