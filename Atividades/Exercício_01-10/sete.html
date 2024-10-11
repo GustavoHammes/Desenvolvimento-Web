@@ -1,0 +1,108 @@
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercício 7</title>
+    <style>
+      html {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        font-family: calibri;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+      }
+      #menu {
+        width: 100vw;
+        display: flex;
+        height: 70vh;
+        border-bottom: 1px solid #aaa;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+      }
+      #titulo {
+        font-size: 40px;
+      }
+      #titulo,
+      #avatar {
+        display: flex;
+        align-items: center;
+      }
+      #corpo {
+        width: 100vw;
+        display: flex;
+        height: 300vh;
+      }
+      .amarelo {
+        background-color: yellow;
+        width: 200px;
+      }
+      .azul {
+        background-color: cyan;
+        flex-grow: 1;
+      }
+      #rodape {
+        display: flex;
+        width: 100vw;
+        border-top: 1px solid #aaa;
+        box-sizing: border-box;
+        height: 80vh;
+        justify-content: space-around;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="menu">
+      <div id="titulo">
+        <img
+          src="/Atividades/Assents/imagens/css.png"
+          alt=""
+          width="60"
+          height="60"
+        />
+        <div>CSS3</div>
+      </div>
+      <div id="avatar">
+        <div>Bill Gates</div>
+        <img
+          src="/Atividades/Assents/imagens/avatar.jpg"
+          alt=""
+          width="42"
+          height="42"
+        />
+      </div>
+    </div>
+    <div id="corpo">
+      <div class="amarelo"></div>
+      <div class="azul"></div>
+    </div>
+    <div id="rodape">
+      <img
+        src="/Atividades/Assents/imagens/Fatec.png"
+        alt=""
+        width="87"
+        height="41"
+      />
+      <img
+        src="/Atividades/Assents/imagens/CPS.png"
+        alt=""
+        width="85"
+        height="56"
+      />
+      <img
+        src="/Atividades/Assents/imagens/Brasao.png"
+        alt=""
+        width="81"
+        height="54"
+      />
+    </div>
+  </body>
+</html>

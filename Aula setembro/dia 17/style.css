@@ -1,0 +1,32 @@
+p {
+    
+    background-color: lightgray;
+  }
+div {
+    border: 2px solid red;
+    font-weight: bold;
+  }
+
+.dia:hover {
+      color:white;
+      background-color: blueviolet;
+      font-style: italic;
+      font-weight: bolder;
+}  
+#tarde {
+       background-color: orange;
+       color:red;
+       font-size: 22px;
+}
+
+* {
+    font-family:'calibri';
+  }
+
+h2, h4{
+  background-color: gray;
+  font-style: italic;
+
+
+}
+

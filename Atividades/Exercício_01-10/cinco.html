@@ -1,0 +1,142 @@
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercício 5</title>
+    <style>
+      html {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        font-family: calibri;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+      }
+      #menu {
+        width: 100vw;
+        display: flex;
+        height: 70vh;
+        border-bottom: 1px solid #aaa;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+      }
+      #titulo {
+        font-size: 40px;
+      }
+      #titulo,
+      #avatar {
+        display: flex;
+        align-items: center;
+      }
+      #corpo {
+        width: 100vw;
+        display: flex;
+        height: 300vh;
+        background-color: #444;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        color: white;
+      }
+      fieldset {
+        border-radius: 5px;
+        width: 40vw;
+        padding: 20px;
+      }
+      label,
+      input,
+      .botao {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+        border-radius: 5px;
+      }
+      #botoes {
+        margin-top: 2%;
+        display: block;
+      }
+      .botao {
+        padding: 2px;
+        color: white;
+        background-color: #1e90ff;
+      }
+      #rodape {
+        display: flex;
+        width: 100vw;
+        border-top: 1px solid #aaa;
+        box-sizing: border-box;
+        height: 80vh;
+        justify-content: space-around;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="menu">
+      <div id="titulo">
+        <img
+          src="/Atividades/Assents/imagens/css.png"
+          alt=""
+          width="60"
+          height="60"
+        />
+        <div>CSS3</div>
+      </div>
+      <div id="avatar">
+        <div>Bill Gates</div>
+        <img
+          src="/Atividades/Assents/imagens/avatar.jpg"
+          alt=""
+          width="42"
+          height="42"
+        />
+      </div>
+    </div>
+    <div id="corpo">
+      <form>
+        <fieldset>
+          <legend>Login</legend>
+          <div>
+            <label>e-mail</label>
+            <input type="email" name="mail" />
+          </div>
+          <div>
+            <label>Senha</label>
+            <input type="password" name="senha" />
+          </div>
+          <div id="botoes">
+            <input type="submit" value="Enviar" class="botao" />
+            <input type="reset" value="Limpar" class="botao" />
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <div id="rodape">
+      <img
+        src="/Atividades/Assents/imagens/Fatec.png"
+        alt=""
+        width="87"
+        height="41"
+      />
+      <img
+        src="/Atividades/Assents/imagens/CPS.png"
+        alt=""
+        width="85"
+        height="56"
+      />
+      <img
+        src="/Atividades/Assents/imagens/Brasao.png"
+        alt=""
+        width="81"
+        height="54"
+      />
+    </div>
+  </body>
+</html>

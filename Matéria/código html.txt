@@ -1,0 +1,58 @@
+<!-- isso é o arquivo HTML  -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exemplo</title>
+    <link href="\estilos\estilos.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  	  <h2>Previsões para a semana:</h2>
+    <h4>Boas notícias para todos</h2>
+    <p class="dia">bom dia</p>
+    <p id="tarde">boa tarde</p>
+    <div>boa noite</div>
+    <h3 class="dia">Tenha um bom dia!</h3>
+    <p class="dia">Nesse dia, você terá muita sorte</p>
+
+  </body>
+</html>
+
+
+
+
+Aqui é o arquivo CSS:
+
+p {
+    
+    background-color: lightgray;
+  }
+div {
+    border: 2px solid red;
+    font-weight: bold;
+  }
+
+.dia:hover {
+      color:white;
+      background-color: blueviolet;
+      font-style: italic;
+      font-weight: bolder;
+}  
+#tarde {
+       background-color: orange;
+       color:red;
+       font-size: 22px;
+}
+
+* {
+    font-family:'calibri';
+  }
+
+h2, h4{
+  background-color: gray;
+  font-style: italic;
+
+
+}
+
