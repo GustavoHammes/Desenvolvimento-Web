@@ -1,0 +1,13 @@
+#um {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: 200px;
+  width: 400px;
+}
+
+#um > div {
+  border: 2px dotted red;
+  font-size: 20px;
+}

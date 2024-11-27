@@ -1,0 +1,9 @@
+span {
+        margin: 20px;
+        padding: 15px;
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        border: 2px solid blue;
+        /* display: block; */
+    }
